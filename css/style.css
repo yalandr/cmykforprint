@@ -257,7 +257,9 @@ a {
 }
 
 .order__btn {
-	background: transparent;
+	background: #FABE06;
+	color: #fff;
+	border: none;
 	padding: 12px 40px;
 	border: 1px solid #000;
 	font-size: 15px;
@@ -267,10 +269,7 @@ a {
 }
 
 .order__btn:hover {
-	background-color: #FABE06;
-	border: none;
-	color: #fff;
-	box-shadow: 0 0 10px grey;
+	box-shadow: 0 0 10px #333;
 }
 
 
