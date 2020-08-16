@@ -486,7 +486,6 @@ footer {
 	
 
 	.menu__burger {
-		background-color: #383838ee;
 		top: 61px;
 	}
 
@@ -577,7 +576,7 @@ footer {
 	}
 
 	.mobile__menu__item {
-		font-size: 16px;
+		font-size: 24px;
 		padding: 28px;
 	}
 
