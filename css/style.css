@@ -104,7 +104,7 @@ a {
 	display: none;
 	width: 50%;
 	height: 100%;
-	background: #00000099;
+	background: #FABE06;
 	z-index: 1;
 	position: fixed;
 	right: 0;
@@ -117,18 +117,19 @@ a {
 	width: 80%;
 	margin-left: 80px;
 	list-style: none;
-	font-size: 16px;
-	color: #fabe06;
-	font-weight: 400;
+	font-size: 22px;
+	color: #000;
+	font-weight: 800;
 	text-transform: uppercase;
-	padding: 28px;
+	padding: 32px 28px;
 	-webkit-transition: .3s;
 	-o-transition: .3s;
 	transition: .3s;
 }
 
 .mobile__menu__item:hover {
-	background-color: #222;
+	-webkit-box-shadow: 0 0 6px #555;
+	        box-shadow: 0 0 6px #555;
 }
 
 .close__menu {
