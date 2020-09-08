@@ -17,7 +17,7 @@ a {
 
 .text__white {color: #fff;}
 .text__yellow {color: #FABE06;}
-.text__grey {color: #999;}
+.text__grey {color: #777;}
 .text__light {font-weight: 300;}
 .text__regular {font-weight: 400;}
 .text__bold {font-weight: 800;}
@@ -302,6 +302,7 @@ a {
 	border: 1px solid #000;
 	font-size: 15px;
 	font-weight: bold;
+	letter-spacing: 2px;
 	cursor: pointer;
 	-webkit-transition: .3s;
 	-o-transition: .3s;
@@ -552,10 +553,7 @@ footer {
 @media (max-width: 768px) {
 	
 
-	.menu__burger {
-		background-color: #383838ee;
-		top: 61px;
-	}
+	.menu__burger {top: 54px;}
 
 	.header__container {padding: 0;}
 
@@ -641,10 +639,7 @@ footer {
 		height: 36px;
 	}
 
-	.menu__burger {
-		width: 100%;
-		background-color: #383838ee;
-	}
+	.menu__burger {width: 100%;}
 
 	.mobile__menu__item {
 		font-size: 16px;
